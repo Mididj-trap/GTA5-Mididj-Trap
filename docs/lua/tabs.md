@@ -1,8 +1,11 @@
 # Tabs
+<!-- 标签页 -->
 
 All the tabs from the menu are listed below, used as parameter for adding gui elements to them.
+<!-- 以下列出了菜单中的所有标签页，可用作向其添加GUI元素的参数。 -->
 
 **Example Usage:**
+<!-- 使用示例： -->
 
 ```lua
 missionsTab = gui.get_tab("GUI_TAB_MISSIONS")
@@ -10,10 +13,13 @@ missionsTab:add_button("Click me", function ()
     log.info("You clicked!")
 end)
 ```
+<!-- 上面的代码展示了如何获取任务标签页并添加一个按钮。当按钮被点击时，会在日志中输出信息。 -->
 
 For a complete list of available gui functions, please refer to the tab class documentation and the gui table documentation.
+<!-- 有关可用的GUI函数的完整列表，请参阅标签页类文档和GUI表文档。 -->
 
 ## Tab Count: 50
+<!-- 标签页总数：50个 -->
 
 ### `GUI_TAB_SELF`
 ### `GUI_TAB_WEAPONS`
